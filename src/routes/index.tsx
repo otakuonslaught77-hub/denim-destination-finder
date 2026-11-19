@@ -2,16 +2,17 @@ import { useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowRight, MapPin, Menu, Search, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-const photo0004 = "/IMG-20261119-WA0004.jpg";
-const photo0005 = "/IMG-20261119-WA0005.jpg";
-const photo0006 = "/IMG-20261119-WA0006.jpg";
-const photo0007 = "/IMG-20261119-WA0011.jpg";
-const photo0009 = "/IMG-20261119-WA0014.jpg";
-const photo0010 = "/IMG-20261119-WA0010.jpg";
-const photo0012 = "/IMG-20261119-WA0012.jpg";
-const photo0013 = "/IMG-20261119-WA0013.jpg";
-const photo0015 = "/IMG-20261119-WA0015.jpg";
-const photo0016 = "/IMG-20261119-WA0016.jpg";
+const photo0004 = { url: "/IMG-20261119-WA0004.jpg" };
+const photo0005 = { url: "/IMG-20261119-WA0005.jpg" };
+const photo0006 = { url: "/IMG-20261119-WA0006.jpg" };
+const photo0007 = { url: "/IMG-20261119-WA0011.jpg" };
+const photo0009 = { url: "/IMG-20261119-WA0014.jpg" };
+const photo0010 = { url: "/IMG-20261119-WA0010.jpg" };
+const photo0012 = { url: "/IMG-20261119-WA0012.jpg" };
+const photo0013 = { url: "/IMG-20261119-WA0013.jpg" };
+const photo0015 = { url: "/IMG-20261119-WA0015.jpg" };
+const photo0016 = { url: "/IMG-20261119-WA0016.jpg" };
+
 
 
 const mapUrl = "https://maps.app.goo.gl/ZccRny3RZvWBu699A?g_st=ac";
