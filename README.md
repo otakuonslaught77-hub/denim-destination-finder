@@ -1,14 +1,18 @@
-# Welcome to your Lovable project
+# Denim Destination Finder
+
+https://maps.app.goo.gl/ZccRny3RZvWBu699A?g_st=ac   make a web using this link and use the photos I give you ,make it professional
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://denim-destination-finder.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/24d696fb-8631-4a90-a0b2-b6ae853b56d2).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +24,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
