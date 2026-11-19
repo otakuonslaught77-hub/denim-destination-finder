@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## App architecture
+- Keep the storefront as a single TanStack file route at `/`, with its storefront-specific design tokens and presentation styles in `src/styles.css`; this keeps the primary shopping and visit experience cohesive and mobile-first.
