@@ -2,16 +2,17 @@ import { useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowRight, MapPin, Menu, Search, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import photo0004 from "@/assets/IMG-20261119-WA0004.jpg.asset.json";
-import photo0005 from "@/assets/IMG-20261119-WA0005.jpg.asset.json";
-import photo0006 from "@/assets/IMG-20261119-WA0006.jpg.asset.json";
-import photo0007 from "@/assets/IMG-20261119-WA0007.jpg.asset.json";
-import photo0009 from "@/assets/IMG-20261119-WA0009.jpg.asset.json";
-import photo0010 from "@/assets/IMG-20261119-WA0010.jpg.asset.json";
-import photo0012 from "@/assets/IMG-20261119-WA0012.jpg.asset.json";
-import photo0013 from "@/assets/IMG-20261119-WA0013.jpg.asset.json";
-import photo0015 from "@/assets/IMG-20261119-WA0015.jpg.asset.json";
-import photo0016 from "@/assets/IMG-20261119-WA0016.jpg.asset.json";
+const photo0004 = "/IMG-20261119-WA0004.jpg";
+const photo0005 = "/IMG-20261119-WA0005.jpg";
+const photo0006 = "/IMG-20261119-WA0006.jpg";
+const photo0007 = "/IMG-20261119-WA0011.jpg";
+const photo0009 = "/IMG-20261119-WA0014.jpg";
+const photo0010 = "/IMG-20261119-WA0010.jpg";
+const photo0012 = "/IMG-20261119-WA0012.jpg";
+const photo0013 = "/IMG-20261119-WA0013.jpg";
+const photo0015 = "/IMG-20261119-WA0015.jpg";
+const photo0016 = "/IMG-20261119-WA0016.jpg";
+
 
 const mapUrl = "https://maps.app.goo.gl/ZccRny3RZvWBu699A?g_st=ac";
 
